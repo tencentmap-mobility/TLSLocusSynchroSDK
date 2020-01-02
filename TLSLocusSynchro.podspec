@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = {:type => "CopyRight", :text => "Copyright © 1998-2019 Tencent All Rights Reserved"}
   spec.author       = { "mol" => "mikedpzhang@tencent.com" }
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/tentcentmap-mobility/TLSLocusSynchro.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/tentcentmap-mobility/TLSLocusSynchroSDK.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
 
   spec.source_files  = "TLSLocusSynchro.framework/Headers/*.h"
